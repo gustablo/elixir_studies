@@ -4,7 +4,7 @@ defmodule FibonacciTest do
 
   test "returns a correct value for fibonacci calc" do
     input = 8
-    expected_response = 22
+    expected_response = 21
 
     assert Fibonacci.calc(input) === expected_response
   end
