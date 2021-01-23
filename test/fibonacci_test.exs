@@ -2,7 +2,7 @@ defmodule FibonacciTest do
   use ExUnit.Case
   doctest Fibonacci
 
-  test "returns a correct value for fibonacci" do
+  test "returns a correct value for fibonacci calc" do
     input = 8
     expected_response = 21
 
